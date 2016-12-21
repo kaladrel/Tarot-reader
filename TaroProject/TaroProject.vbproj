@@ -249,9 +249,6 @@
     <None Include="Resources\074965-ultra-glossy-silver-button-icon-alphanumeric-crossing.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\refresh-button-icon-63596.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\021297-ultra-glossy-silver-button-icon-symbols-shapes-minimize.png" />
   </ItemGroup>
   <ItemGroup>
