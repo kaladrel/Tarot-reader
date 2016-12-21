@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="goblin_tarot___card_back_b_by_vulpinoid-d4937mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goblin_tarot___card_back_b_by_vulpinoid-d4937mm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="009829-ultra-glossy-silver-button-icon-arrows-arrow-ring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\009829-ultra-glossy-silver-button-icon-arrows-arrow-ring1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (20).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (28).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (13).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="021297-ultra-glossy-silver-button-icon-symbols-shapes-minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\021297-ultra-glossy-silver-button-icon-symbols-shapes-minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (24).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tumblr_ng5ih91a6y1qh6qw2o4_400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumblr_ng5ih91a6y1qh6qw2o4_400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (22).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (17).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (21).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (29)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (29).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (12).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (34)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (34).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (32).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (25).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ironbullc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ironbullc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (23).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slider_cards_bg_1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slider_cards_bg_1024.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="074965-ultra-glossy-silver-button-icon-alphanumeric-crossing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\074965-ultra-glossy-silver-button-icon-alphanumeric-crossing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xiii-tarot-by-nekro-back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xiii-tarot-by-nekro-back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (19).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (8).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f88ceb69e69cccd8f8ba6c3afeee432b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f88ceb69e69cccd8f8ba6c3afeee432b.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8853d2c9b4aa12993af4bee4ed12569e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8853d2c9b4aa12993af4bee4ed12569e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (15).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (5).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (16).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (18).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (27).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenRoundedButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenRoundedButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (14).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh-button-icon-63596" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh-button-icon-63596.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magic_Celtic_Music___The_Hooded_Man___Tarot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magic_Celtic_Music_-_The_Hooded_Man_-_Tarot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tarot_ (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (31)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (31).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="009906-ultra-glossy-silver-button-icon-arrows-triangle-circle-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\009906-ultra-glossy-silver-button-icon-arrows-triangle-circle-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (10).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_of_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_of_card.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (35)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (35).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (33)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (33).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (30).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xiii-tarot-by-nekro-back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xiii-tarot-by-nekro-back1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarot_ (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (26).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="021311-ultra-glossy-silver-button-icon-symbols-shapes-shape-stop-button-clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\021311-ultra-glossy-silver-button-icon-symbols-shapes-shape-stop-button-clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Gothic Wallpaper For Android 6067 Wallpaper  WallpaperLepi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Gothic Wallpaper For Android 6067 Wallpaper  WallpaperLepi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

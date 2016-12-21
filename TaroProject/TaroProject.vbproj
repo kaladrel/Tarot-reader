@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4AB71B3A-FD49-4111-A68B-2D8A0B8BCF86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TaroProject.My.MyApplication</StartupObject>
+    <RootNamespace>TaroProject</RootNamespace>
+    <AssemblyName>TaroProject</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TaroProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TaroProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tarot.Logic\Tarot.Logic.csproj">
+      <Project>{d5d762b8-9347-426a-8add-31cd8ef98cdc}</Project>
+      <Name>Tarot.Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2811%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2819%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2820%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2821%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2822%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2823%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2824%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2825%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2826%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2827%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2828%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2829%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2830%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f88ceb69e69cccd8f8ba6c3afeee432b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2831%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2832%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2833%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2834%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot_ %2835%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xiii-tarot-by-nekro-back1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\074965-ultra-glossy-silver-button-icon-alphanumeric-crossing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-button-icon-63596.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\021297-ultra-glossy-silver-button-icon-symbols-shapes-minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009829-ultra-glossy-silver-button-icon-arrows-arrow-ring1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magic_Celtic_Music_-_The_Hooded_Man_-_Tarot.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\021311-ultra-glossy-silver-button-icon-symbols-shapes-shape-stop-button-clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009906-ultra-glossy-silver-button-icon-arrows-triangle-circle-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Gothic Wallpaper For Android 6067 Wallpaper  WallpaperLepi.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
