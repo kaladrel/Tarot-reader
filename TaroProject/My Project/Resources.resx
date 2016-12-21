@@ -118,17 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="goblin_tarot___card_back_b_by_vulpinoid-d4937mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\goblin_tarot___card_back_b_by_vulpinoid-d4937mm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="009829-ultra-glossy-silver-button-icon-arrows-arrow-ring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\009829-ultra-glossy-silver-button-icon-arrows-arrow-ring1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tarot_ (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tarot_ (20).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -141,6 +135,9 @@
   </data>
   <data name="021297-ultra-glossy-silver-button-icon-symbols-shapes-minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\021297-ultra-glossy-silver-button-icon-symbols-shapes-minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Gothic Wallpaper For Android 6067 Wallpaper  WallpaperLepi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Gothic Wallpaper For Android 6067 Wallpaper  WallpaperLepi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (24).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,23 +163,14 @@
   <data name="tarot_ (34)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (34).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tarot_ (32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tarot_ (32).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tarot_ (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (20).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (25).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ironbullc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ironbullc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tarot_ (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (23).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="slider_cards_bg_1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\slider_cards_bg_1024.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="074965-ultra-glossy-silver-button-icon-alphanumeric-crossing" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\074965-ultra-glossy-silver-button-icon-alphanumeric-crossing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,26 +178,20 @@
   <data name="tarot_ (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="xiii-tarot-by-nekro-back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xiii-tarot-by-nekro-back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tarot_ (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (19).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="serar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\serar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Magic_Celtic_Music___The_Hooded_Man___Tarot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magic_Celtic_Music_-_The_Hooded_Man_-_Tarot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tarot_ (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (8).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="f88ceb69e69cccd8f8ba6c3afeee432b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f88ceb69e69cccd8f8ba6c3afeee432b.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="8853d2c9b4aa12993af4bee4ed12569e" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8853d2c9b4aa12993af4bee4ed12569e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (15).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,26 +205,20 @@
   <data name="tarot_ (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (18).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tarot_ (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (27).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GreenRoundedButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GreenRoundedButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tarot_ (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (10).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (14).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="refresh-button-icon-63596" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\refresh-button-icon-63596.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Magic_Celtic_Music___The_Hooded_Man___Tarot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Magic_Celtic_Music_-_The_Hooded_Man_-_Tarot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="xiii-tarot-by-nekro-back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xiii-tarot-by-nekro-back1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,12 +229,6 @@
   <data name="009906-ultra-glossy-silver-button-icon-arrows-triangle-circle-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\009906-ultra-glossy-silver-button-icon-arrows-triangle-circle-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tarot_ (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tarot_ (10).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back_of_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back_of_card.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tarot_ (35)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (35).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -268,14 +238,14 @@
   <data name="tarot_ (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tarot_ (32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarot_ (32).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (30).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="xiii-tarot-by-nekro-back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xiii-tarot-by-nekro-back1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="074965-ultra-glossy-silver-button-icon-alphanumeric-crossing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\074965-ultra-glossy-silver-button-icon-alphanumeric-crossing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tarot_ (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tarot_ (26).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -283,7 +253,7 @@
   <data name="021311-ultra-glossy-silver-button-icon-symbols-shapes-shape-stop-button-clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\021311-ultra-glossy-silver-button-icon-symbols-shapes-shape-stop-button-clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dark Gothic Wallpaper For Android 6067 Wallpaper  WallpaperLepi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dark Gothic Wallpaper For Android 6067 Wallpaper  WallpaperLepi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="slider_cards_bg_1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slider_cards_bg_1024.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

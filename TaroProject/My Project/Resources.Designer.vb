@@ -113,26 +113,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property _8853d2c9b4aa12993af4bee4ed12569e() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("8853d2c9b4aa12993af4bee4ed12569e", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property back_of_card() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("back_of_card", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property Dark_Gothic_Wallpaper_For_Android_6067_Wallpaper__WallpaperLepi() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Dark Gothic Wallpaper For Android 6067 Wallpaper  WallpaperLepi", resourceCulture)
@@ -151,81 +131,11 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property giphy() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("giphy", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property goblin_tarot___card_back_b_by_vulpinoid_d4937mm() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("goblin_tarot___card_back_b_by_vulpinoid-d4937mm", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property GreenRoundedButton() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("GreenRoundedButton", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property ironbullc() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ironbullc", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property left() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("left", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
         Friend ReadOnly Property Magic_Celtic_Music___The_Hooded_Man___Tarot() As System.IO.UnmanagedMemoryStream
             Get
                 Return ResourceManager.GetStream("Magic_Celtic_Music___The_Hooded_Man___Tarot", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property refresh_button_icon_63596() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("refresh-button-icon-63596", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property serar() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("serar", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
@@ -595,16 +505,6 @@ Namespace My.Resources
         Friend ReadOnly Property tumblr_ng5ih91a6y1qh6qw2o4_400() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("tumblr_ng5ih91a6y1qh6qw2o4_400", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property xiii_tarot_by_nekro_back() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("xiii-tarot-by-nekro-back", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
